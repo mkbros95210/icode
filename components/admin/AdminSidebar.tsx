@@ -4,7 +4,7 @@ import {
     DashboardIcon, ProductsIcon, UserIcon, BarChart2Icon, DollarSignIcon,
     ShoppingCartIcon, ListChecksIcon, LayersIcon, CrownIcon, TagIcon, SettingsIcon,
     SlidersIcon, ImageIcon, XIcon
-} from '@/constants';
+} from '../../constants';
 
 const adminTabs = [
     { name: 'Dashboard', icon: DashboardIcon, path: '#/Admin/Dashboard' },
