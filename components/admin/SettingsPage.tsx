@@ -1,9 +1,9 @@
 
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { CreditCardIcon, RazorpayIcon, PhonePeIcon } from '@/constants';
-import { supabase } from '@/lib/supabase';
-import type { PaymentGateway } from '@/types';
+import { CreditCardIcon, RazorpayIcon, PhonePeIcon } from '../../constants';
+import { supabase } from '../../lib/supabase';
+import type { PaymentGateway } from '../../types';
 
 const ToggleSwitch: React.FC<{label: string, enabled: boolean, setEnabled: (e:boolean) => void}> = ({label, enabled, setEnabled}) => (
     <div className="flex justify-between items-center">
